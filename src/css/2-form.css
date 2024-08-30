@@ -8,7 +8,6 @@ body {
   margin: 0;
 }
 
-/* Стиль для тексту */
 .feedback-form,
 .feedback-form label,
 .feedback-form button {
@@ -20,7 +19,6 @@ body {
   color: #2e2f42;
 }
 
-/* Стилі для форми */
 .feedback-form {
   background-color: #fff;
   padding: 20px;
@@ -30,20 +28,17 @@ body {
   width: 100%;
 }
 
-/* Стиль для міток (label) */
 .feedback-form label {
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px; /* Загальний відступ між полями */
+  margin-bottom: 16px;
 }
 
-/* Відступ між текстом мітки і полем введення */
 .feedback-form label > input,
 .feedback-form label > textarea {
   margin-top: 8px;
 }
 
-/* Стиль для полів введення */
 .feedback-form input[type='email'],
 .feedback-form textarea {
   width: 100%;
@@ -60,24 +55,20 @@ body {
   transition: border-color 0.3s ease;
 }
 
-/* Стиль для полів при наведенні */
 .feedback-form input[type='email']:hover,
 .feedback-form textarea:hover {
   border-color: black;
 }
 
-/* Стиль для активного поля */
 .feedback-form input[type='email']:focus,
 .feedback-form textarea:focus {
   border-color: #4e75ff;
 }
 
-/* Стиль для текстового поля (textarea) */
 .feedback-form textarea {
   height: 80px;
 }
 
-/* Стиль для кнопки відправки */
 .feedback-form button {
   border-radius: 8px;
   padding: 8px 16px;
@@ -90,17 +81,14 @@ body {
   transition: background 0.3s ease;
 }
 
-/* Відступ між текстом і боксом (якщо є) */
 .feedback-form button {
   margin-top: 8px;
 }
 
-/* Зміна стилю кнопки при наведенні */
 .feedback-form button:hover {
   background: #6c8cff;
 }
 
-/* Стиль для стану активного введення */
 .feedback-form input[type='email']::placeholder,
 .feedback-form textarea::placeholder {
   color: #a3a3a3;
